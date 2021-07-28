@@ -1,6 +1,6 @@
 AFRAME.registerComponent("base", {
     schema: {
-        radius: {type: "number", default: 150},
+        radius: {type: "number", default: 50},
         height: {type: "number", default: 3},
     },
 
@@ -12,6 +12,6 @@ AFRAME.registerComponent("base", {
             height: this.data.height
         }),
 
-        this.el.setAttribute("material", {color: "#1769aa"});
+        this.el.setAttribute("material", {color: "#f2095f"});
     }
 });
